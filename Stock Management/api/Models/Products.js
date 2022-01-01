@@ -9,22 +9,22 @@ const ProductsSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    catName:{
-        type: String,
-        required: true
+    catId:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Category'
     },
-    brandName:{
-        type: String,
-        required: true
+    brandId:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Brand'
     },
-    buyPrice: {
-        type: Number,
-        required: true
-    },
-    sellingPrice: {
-        type: String,
-        required: true
-    },
+    // buyPrice: {
+    //     type: Number,
+    //     required: true
+    // },
+    // sellingPrice: {
+    //     type: String,
+    //     required: true
+    // },
     img:{
         type: String,
         required: true
@@ -33,13 +33,13 @@ const ProductsSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    productQty:{
-        type: Number,
-        required: true
-    },
-    buyDate:{
-        type: String,
-        required: true
-    }
+    // productQty:{
+    //     type: Number,
+    //     required: true
+    // },
+    // buyDate:{
+    //     type: String,
+    //     required: true
+    // }
 }, {timestamps:true})
 module.exports = mongoose.model('Products', ProductsSchema)

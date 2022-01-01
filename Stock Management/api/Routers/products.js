@@ -5,6 +5,8 @@
  */
 const router = require('express').Router()
 const Products = require('../Models/Products')
+const Brand = require('../Models/Brand')
+const Cats = require('../Models/Category')
 
 /*
 *================
@@ -13,7 +15,7 @@ const Products = require('../Models/Products')
 */
 router.get('/all', async (rqe,res)=>{
     try{
-        const products = await Products.find()
+        const products = await Products.find().populate(['catId','brandId'])
         await res.status(200).json(products)
     }catch (e) {
         await res.status(500).json(e.message)

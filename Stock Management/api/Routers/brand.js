@@ -31,4 +31,14 @@ router.post('/create', async (req,res)=>{
     }
 })
 
+// Get API
+router.get('/all', async (req,res)=>{
+    try{
+        const brand = await Brand.find()
+        await res.status(200).json(brand)
+    }catch (e) {
+        await res.status(500).json(e.message)
+    }
+})
+
 module.exports = router

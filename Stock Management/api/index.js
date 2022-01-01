@@ -8,6 +8,10 @@ const path = require("path");
 const productRoute = require('./Routers/products')
 const categoryRoute = require('./Routers/category')
 const brandRoute = require('./Routers/brand')
+const cartRoute = require('./Routers/cart')
+const employeeRoute = require('./Routers/employee')
+const customerRoute = require('./Routers/customer')
+const stockRoute = require('./Routers/stock')
 
 /**
  *  ======================
@@ -20,6 +24,11 @@ app.use("/assets", express.static(path.join(__dirname, "public/assets")));
 app.use('/api/products', productRoute)
 app.use('/api/category', categoryRoute)
 app.use('/api/brand', brandRoute)
+app.use('/api/cart', cartRoute)
+app.use('/api/employee', employeeRoute)
+app.use('/api/customer', customerRoute)
+app.use('/api/stock', stockRoute)
+
 
 
 
