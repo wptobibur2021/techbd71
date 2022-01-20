@@ -12,6 +12,9 @@ const cartRoute = require('./Routers/cart')
 const employeeRoute = require('./Routers/employee')
 const customerRoute = require('./Routers/customer')
 const stockRoute = require('./Routers/stock')
+const orderRoute = require('./Routers/order')
+const damageRoute = require('./Routers/damage')
+const returnRoute = require('./Routers/return')
 
 /**
  *  ======================
@@ -28,7 +31,9 @@ app.use('/api/cart', cartRoute)
 app.use('/api/employee', employeeRoute)
 app.use('/api/customer', customerRoute)
 app.use('/api/stock', stockRoute)
-
+app.use('/api/order', orderRoute)
+app.use('/api/damage', damageRoute)
+app.use('/api/return', returnRoute)
 
 
 

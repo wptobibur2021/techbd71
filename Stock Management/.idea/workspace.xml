@@ -20,33 +20,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a04a3769-d433-439f-a008-c7d2c8164fb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/Models/Cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Models/Customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Models/Employee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Models/Orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Models/Stock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Routers/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Routers/customer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Routers/employee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/Routers/stock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Models/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Models/Return.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Routers/damage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Routers/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/Routers/return.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Brand/ListBrand.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/Components/Cart/Cart.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/Components/Cart/CartModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Cart/DamageModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Cart/ReturnModal.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/Components/Cart/SingleCart.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/Components/Customer/AddCustomer.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/Components/Employee/AddEmployee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Order/AddOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Order/AllOrders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Order/SingleOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Order/SingleUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Order/UpdateOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Sales/Sales.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/Components/Stock/AddStock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Models/Brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Models/Brand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Models/Category.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Models/Category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Models/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Models/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Models/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Models/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Models/Orders.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Models/Damage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/Routers/brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Routers/brand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/Routers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Routers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Routers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Routers/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Routers/customer.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Routers/customer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Routers/employee.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Routers/employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/Routers/stock.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/Routers/stock.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Category/ListCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Category/ListCategory.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/LeftSideBar/LeftSideBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/LeftSideBar/LeftSideBar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Products/AddProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Products/AddProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Products/ListProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Products/ListProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Hooks/UseAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Hooks/UseAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Pages/Dashboard/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Pages/Dashboard/Dashboard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Router/RouterNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Router/RouterNav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +78,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
   </component>
   <component name="ProjectId" id="22OnHELhNCOr61Hix04yhnLN6FB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,6 +93,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -95,7 +110,33 @@
       <workItem from="1639760672082" duration="6974000" />
       <workItem from="1639850921807" duration="132000" />
       <workItem from="1639931212927" duration="10122000" />
-      <workItem from="1640951321727" duration="28806000" />
+      <workItem from="1640951321727" duration="52084000" />
+      <workItem from="1641144673299" duration="607000" />
+      <workItem from="1641219020538" duration="15013000" />
+      <workItem from="1641320439197" duration="366000" />
+      <workItem from="1641320864103" duration="728000" />
+      <workItem from="1641478579608" duration="3527000" />
+      <workItem from="1641919649484" duration="7332000" />
+      <workItem from="1641968515604" duration="3000" />
+      <workItem from="1641972241051" duration="14000" />
+      <workItem from="1641972679165" duration="87000" />
+      <workItem from="1641979632069" duration="16000" />
+      <workItem from="1641993558550" duration="19291000" />
+      <workItem from="1642013591122" duration="4286000" />
+      <workItem from="1642052763848" duration="82000" />
+      <workItem from="1642060780400" duration="7000" />
+      <workItem from="1642068005885" duration="1000" />
+      <workItem from="1642168757605" duration="554000" />
+      <workItem from="1642171999444" duration="593000" />
+      <workItem from="1642173609192" duration="568000" />
+      <workItem from="1642188722322" duration="595000" />
+      <workItem from="1642255885984" duration="595000" />
+      <workItem from="1642313403686" duration="24000" />
+      <workItem from="1642316062805" duration="596000" />
+      <workItem from="1642347771079" duration="8497000" />
+      <workItem from="1642440969417" duration="4915000" />
+      <workItem from="1642524515555" duration="602000" />
+      <workItem from="1642686878102" duration="2578000" />
     </task>
     <servers />
   </component>
@@ -119,6 +160,14 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="526" y="200" key="#Notifications/0.0.1280.672@0.0.1280.672" timestamp="1639717477181" />
+    <state x="371" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1642442079445">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="371" y="84" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.672@0.0.1280.672" timestamp="1642442079445" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1642013577824">
+      <screen x="0" y="0" width="1280" height="672" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1642013577824" />
     <state x="303" y="0" width="672" height="670" key="search.everywhere.popup" timestamp="1640953535168">
       <screen x="0" y="0" width="1280" height="672" />
     </state>

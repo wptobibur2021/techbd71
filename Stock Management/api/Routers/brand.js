@@ -41,4 +41,17 @@ router.get('/all', async (req,res)=>{
     }
 })
 
+// Delete API
+router.delete('/delete/:id', async (req,res)=>{
+    try{
+        const id = req.params.id
+        console.log('Brand Id: ', id)
+        const brandDelete = await Brand.findById(id)
+        await brandDelete.deleteOne()
+        await res.status(200).json('Category Delete Has Been Successfully')
+    }catch (e) {
+        await res.status(500).json(e.message)
+    }
+})
+
 module.exports = router

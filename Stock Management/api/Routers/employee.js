@@ -23,5 +23,12 @@ router.post('/create', async (req,res)=>{
         await res.status(500).json(e.message)
     }
 })
-
+router.get('/all', async (req,res)=>{
+    try{
+        const employee = await Employee.find()
+        await res.status(200).json(employee)
+    }catch (e) {
+        await res.status(500).json(e.message)
+    }
+})
 module.exports = router

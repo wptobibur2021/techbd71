@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 const CartSchema = new mongoose.Schema({
     productId:{
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Product"
+        ref: "Products"
     },
     qty: {
         type: Number,
@@ -16,6 +16,18 @@ const CartSchema = new mongoose.Schema({
     salesPrice: {
         type: Number,
         required: true
+    },
+    damagePro:{
+        type: Number,
+        default: 0
+    },
+    salesPro:{
+        type: Number,
+        default: 0
+    },
+    returnPro:{
+        type: Number,
+        default: 0
     },
     totalPrice:{
         type: Number,
